@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: "inter";
+    src: url(Inter-Regular.ttf);
+}
+.box{
+    width: 378px;
+    height: 489px;
+    border: 1px solid #F4B4B47A ;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 131px;
+}
+.image{
+    margin-top: 12px;
+    margin-left: 9px;
+}
+.section{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 18.48px;
+    padding-left: 30px;
+    font-family: "inter";
+}
+.inputveli1{
+    width: 315px;
+    height: 45px;
+    border: 1px solid #F4B4B4;
+    border-radius: 10px;
+    margin-top: 6px;
+    background-image: url("person-bounding-box\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position:287px 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.password{
+    margin-top: 14px;
+}
+.inputveli2{
+    width: 315px;
+    height: 45px;
+    border: 1px solid #F4B4B4;
+    border-radius: 10px;
+    margin-top: 6px;
+    background-image: url("eye-slash\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 287px 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+::placeholder{
+    color: #9e9e9e;
+    font-size: 16px;
+    font-weight: 500;
+}
+.signin{
+    color:#FFFFFF;
+    background-color:  #6756CB;
+    border:none;
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 35px;
+}
